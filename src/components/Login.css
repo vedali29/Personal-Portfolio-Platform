@@ -1,0 +1,86 @@
+body{
+    background-color: whitesmoke;
+    margin-top:20px;
+    color: #1a202c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textbox{
+    margin: 20px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.col-md-6{
+    padding: 20px;
+    height: 600px;
+    width: 600px;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.email,
+.password {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.email::input, 
+.password::input{
+    color: rgb(49, 47, 47);
+    background-color: azure;
+    width: 300px;
+}
+.col-md-8{
+    display:inline;
+    flex: left;
+    padding-right: 20px;
+    margin: 10px;
+}
+.col-md-9{
+    padding-left:20px;
+    display: inline;
+    flex: right;
+    margin: 10px;
+}
+.button{
+    padding: auto;
+    margin: 20px;
+
+}
+.Login, .create{
+    display: inline-block;
+    padding-right: 30px;
+}
+.Content{
+    display: inline-flex;
+    float: left;
+}
+
+.action{
+    background-color: rgb(184, 227, 235);
+  border: none;
+  border-radius: 40px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.action:hover{
+    background-color: rgb(209, 204, 204);
+}
