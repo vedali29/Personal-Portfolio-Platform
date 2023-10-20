@@ -12,4 +12,5 @@ const skillsSchema = new mongoose.Schema({
   hardSkills: [skillSchema],
   softSkills: [skillSchema],
 });
-const Skills = mongoose.model("Skills", skillsSchema);
+
+module.exports = mongoose.model("Skills", skillsSchema);

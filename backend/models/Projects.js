@@ -10,8 +10,6 @@ const projectsSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-
-  // Optional
   techstack: {
     type: String,
   },

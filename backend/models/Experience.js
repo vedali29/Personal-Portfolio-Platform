@@ -12,9 +12,13 @@ const experienceSchema = new mongoose.Schema({
   },
   description: {
     type: String,
-  }, 
+  },
   link: {
     type: String,
+  },
+  type: {
+    type: String,
+    enum: ["Internship", "Full-Time"],
   },
 });
 

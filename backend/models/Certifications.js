@@ -1,13 +1,13 @@
 const mongoose = require("mongoose");
 
 const certificationSchema = new mongoose.Schema({
-  url: {
+  certification_url: {
     type: String,
   },
-  title: {
+  certification_title: {
     type: String,
   },
-  description: {
+  certification_description: {
     type: String,
   },
 });
